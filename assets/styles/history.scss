@@ -1,0 +1,48 @@
+.history{
+    height: 100%;
+    background: #fff;
+    .like{
+        height: 100%;
+        padding: 10px;
+        .yours{
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            background: #5BC9FC;
+            text-align: center;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .flex1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .intro{
+            width: 150px;
+            color: #878787;
+            font-size: 12px;
+            line-height: 25px;
+            margin-left: 5px;
+            p:nth-child(1){
+                font-size: 18px;
+                font-weight: bold;
+                color: #000000;
+            }
+        }
+        .price{
+            color: #FF0000 ;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            text-align: right;
+        }
+        img{
+            width: 90px;
+            height: 100px;
+        }
+    
+    }
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Chat{
+    .center{
+        background: #fff;
+        margin: 180px auto 0;
+        width: 260px;
+        height: 260px;
+        text-align: center;
+        padding: 20px;
+        p{
+            font-size: 16px;
+            margin-bottom: 10px;
+            span{
+                color: #48B5D6;
+            }
+        }
+        .am-button-primary{
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            margin: 0px auto;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+        }
+    }
+}

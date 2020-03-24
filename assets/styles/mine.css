@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.Mine {
+  overflow: hidden;
+}
+
+.Mine .head {
+  background: #5BC9FC;
+  height: 165px;
+  padding: 8px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.Mine .head .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Mine .head .top .headImg {
+  width: 80px;
+  height: 80px;
+}
+
+.Mine .head .top .set {
+  width: 20px;
+  height: 20px;
+}
+
+.Mine .head .top .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Mine .head .top .log-reg {
+  width: 180px;
+  margin-left: 10px;
+}
+
+.Mine .head .top .log-reg p:nth-child(1) {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.Mine .head .top .log-reg p:nth-child(1) a {
+  color: #fff;
+}
+
+.Mine .head .top .log-reg p:nth-child(2) {
+  font-size: 16px;
+}
+
+.Mine .head .bottom {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 18px;
+}
+
+.Mine .head .bottom div {
+  width: 33%;
+}
+
+.Mine .head .bottom .border {
+  border-right: 2px solid #fff;
+}
+
+.Mine .head .bottom p {
+  margin: 0px 20px 10px;
+}
+
+.Mine .head .bottom img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.Mine .mine {
+  background: #fff;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.Mine .mine .flex {
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.Mine .mine .flex img {
+  width: 20px;
+  margin-right: 10px;
+}
