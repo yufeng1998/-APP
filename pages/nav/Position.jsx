@@ -7,7 +7,7 @@ export default class Position extends Component {
             <div className='position'>
                 <p className="return" onClick={this.return.bind(this)}>返回</p>
                 <div id="container"></div>
-                <div class="info">
+                <div className="info">
                     <p id='info'></p>
                 </div>
             </div>
